@@ -11,7 +11,7 @@ requests = [
             ...
            ]
 
-rp = RequestPool(reqs)
+rp = RequestPool(requests)
 
 responses = rp.start_and_wait()
 ```
